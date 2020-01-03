@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>belajar</title>
+	<title>My Kitchen</title>
 	<!-- Bootstrap core CSS -->
 	<link rel="icon" href="../../../../favicon.ico">			
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,6 +35,12 @@
 		}
 		.list-footer li{
 			margin-bottom: 5px;
+		}
+		.about-img img{ 
+			height: 170px;
+			width: 230px;
+			border-radius: 10px;
+			margin-bottom: 10px;
 		}
 	</style>
 </head>
@@ -75,7 +81,7 @@
 	<div class="container global">
 		<div class="jumbotron jumbotron-fluid mt-4" style="border-radius: 10px;">
 			<div class="container text-center">
-				<img src="Budi.jpg" class="rounded-circle" style="width: 200px;">
+				<img src="Budi.jpg" class="rounded-circle img-thumbnail" style="width: 25%;">
 				<h2 class="display-5">Budi Nugroho</h2>
 				<p class="text-info">Owner PT. Kitchen | Programmer | Youtuber</p>
 			</div>
@@ -86,34 +92,45 @@
 				<p class="lead">Make responsive website  with Bootsrap 4. I'll Try make it</p>
 				<a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
 			</div> -->
-		<div class="container">
-			<div class="row mb-1">
-				<div class="col text-center" id="About" style="text-decoration: underline;">
-					<h1> About </h1>
+		<section id="about" class="about">
+			<div class="container">
+				<div class="row mb-1">
+					<div class="col text-center" id="About" style="text-decoration: underline;">
+						<h1> About </h1>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col text-left col-md-5">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+					<div class="col-md-5">
+					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					  	cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col text-left">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-				</div>
-				<div class="col">
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				  	cillum dolore eu fugiat nulla pariatur.</p>
-				</div>
+		</section>	
+		<!-- <div class="d-sm-flex justify-content-between flex-home mb-5">  -->		
+		<div class="row about-img">
+			<div class="col-md">
+				<img src="grapes.jpg" class="img-fluid">
 			</div>
-		</div>
-		<div class="d-sm-flex justify-content-between flex-home mb-5"> 
-			<img src="grapes.jpg" width="250px">
-			<img src="carrots.jpg" width="250px">
-			<img src="coffee.jpg" width="250px">
-			<img src="barbecue.jpg" width="250px">
+			<div class="col-md">
+				<img src="carrots.jpg" class="img-fluid">
+			</div>
+			<div class="col-md">
+				<img src="coffee.jpg" class="img-fluid">
+			</div>
+			<div class="col-md">
+				<img src="barbecue.jpg" class="img-fluid" >
+			</div>
 		</div>
 		<hr>
 	</div>
