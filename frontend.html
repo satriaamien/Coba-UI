@@ -19,7 +19,11 @@
 			background-image: url("foodHome.jpg");
 			padding-bottom: 40vh;
 			width:100%;  
+			background-size: cover;
 
+		}
+		.nav-btn a{
+			border-radius: 40px;
 		}
 		.nav-child{
 			font-weight: 100px;
@@ -65,24 +69,27 @@
 							<a class="nav-link" href="#About">About</a>
 						</li>
 					</ul>
-					<div class="mt-2 mt-md-0">		
-						<button class="btn btn-outline-light mr-4" type="button">Log in</button>		
-						<button class="btn btn-outline-light mr-2" type="button">Sign up</button>
+					<div class="mt-2 mt-md-0 nav-btn">		
+						<a class="btn btn-success mr-4" style="color: white;">Join us</a>		
 					</div>
 				</div>
 			</nav>
 		</div>
-		<div class="text-center mt-5" style="font-size: 40px; color:white;"> Hello, Get your inspiration today in kitchen
+		<!-- <div class="text-center mt-5" style="font-size: 40px; color:white;"> Hello, Get your inspiration today in kitchen
+		</div> -->
+		<div class="text-center mt-5 text-light">
+			<h1>Hello, Get your inspiration today in kitchen</h1>
+			<h1>For better tasty</h1>
 		</div>
 		<div class="text-center mt-3">
-			<a href="#" class="h4" style="color: #19FF33"> Click here </a>	
+			<a href="#" class="h4 btn btn-success" style="color: white; text-transform: uppercase; border-radius: 40px;"> Click here </a>	
 		</div>
 	</div>
 	<div class="container global">
-		<div class="jumbotron jumbotron-fluid mt-4" style="border-radius: 10px;">
+		<div class="jumbotron jumbotron-fluid mt-4 bg-dark rounded" style="border-radius: 10px;">
 			<div class="container text-center">
 				<img src="Budi.jpg" class="rounded-circle img-thumbnail" style="width: 25%;">
-				<h2 class="display-5">Budi Nugroho</h2>
+				<h2 class="display-5 text-light">Budi Nugroho</h2>
 				<p class="text-info">Owner PT. Kitchen | Programmer | Youtuber</p>
 			</div>
 		</div>
@@ -99,8 +106,8 @@
 						<h1> About </h1>
 					</div>
 				</div>
-				<div class="row justify-content-center">
-					<div class="col text-left col-md-5">
+				<div class="row justify-content-center" style="margin-bottom: 100px;">
+					<div class="col text-left col-md-5 ">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -140,34 +147,34 @@
 				<h2 style="font-weight: 1000;">Food</h2>
 			</div>
 		</div>
-		<div class="row mb-4">
+		<div class="row mb-4 justify-content">
 			<div class="col">
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 21.8rem;">
 					<img src="meat.jpg" class="card-img-top" alt="food">
 					<div class="card-body">
 						<h5 class="card-title">Steak</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Buy it</a>
+						<a href="#" class="btn btn-primary">Detail info</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 21.8rem;">
 					<img src="shish-kebab.jpg" class="card-img-top" alt="food">
 					<div class="card-body">
 						<h5 class="card-title">Shish Kebab</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Buy it</a>
+						<a href="#" class="btn btn-primary">Detail info</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 21.8rem;">
 					<img src="restaurant.jpg" class="card-img-top" alt="food">
 					<div class="card-body">
 						<h5 class="card-title">Special Meat</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Buy it</a>
+						<a href="#" class="btn btn-primary">Detail info</a>
 					</div>
 				</div>
 			</div>
@@ -177,9 +184,28 @@
 	<!-- footer -->
 	<div class="container-fluid bg-secondary global-footer pt-3 pb-3" >
 		<div class="container cont-footer">
-			<div class="row">
+			<div class="row" >
 				<div class="col">
 					<h3 class="mb-3"> Menu</h3>
+					<ul class="list-unstyled list-footer">
+						<li>Makanan</li>
+						<li>Minuman</li>
+						<li>Bundle Meal</li>
+						<li>Choco Float</li>
+						<li>Monster Salad</li>
+						<li>Bakery</li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3 class="mb-3">Menu</h3>
+					<ul class="list-unstyled list-footer">
+						<li>Makanan</li>
+						<li>Minuman</li>
+						<li>Bundle Meal</li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3 class="mb-3">Menu</h3>
 					<ul class="list-unstyled list-footer">
 						<li>Makanan</li>
 						<li>Minuman</li>
